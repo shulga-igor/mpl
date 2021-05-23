@@ -1,0 +1,50 @@
+.inner-form{
+    background: url(../../img/bg_form_banner.jpg) 0px 0px no-repeat;
+    background-size: cover;
+
+    .form{
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+
+        label{
+            margin-bottom: 35px;
+        }
+
+        input{
+            height: 70px;
+            color: #6a737d;
+            padding: 14px 16px 14px 65px;
+            @media screen and (max-width: 767px) {
+                height: 56px;
+                padding: 10px 16px 10px 43px;
+            }
+            
+            &.web{
+                background: #fff url(../../img/internet.svg) 28px center no-repeat;
+                @media screen and (max-width: 767px) {
+                    background-position: 10px center;
+                }
+            }
+            &.email{
+                background: #fff url(../../img/email.svg) 28px center no-repeat;
+                @media screen and (max-width: 767px) {
+                    background-position: 12px center;
+                }
+            }
+        }
+
+    }
+
+    .wrap-cta{
+        text-align: center;
+        .button{
+            width: 100%;
+            max-width: 250px;
+        }
+    }
+    
+}
