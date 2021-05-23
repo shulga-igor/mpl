@@ -1,5 +1,5 @@
 .inner-form{
-    background: url(../../img/bg_form_banner.jpg) 0px 0px no-repeat;
+    background: url(../img/bg_form_banner.jpg) 0px 0px no-repeat;
     background-size: cover;
 
     .form{
@@ -24,13 +24,13 @@
             }
             
             &.web{
-                background: #fff url(../../img/internet.svg) 28px center no-repeat;
+                background: #fff url(../img/internet.svg) 28px center no-repeat;
                 @media screen and (max-width: 767px) {
                     background-position: 10px center;
                 }
             }
             &.email{
-                background: #fff url(../../img/email.svg) 28px center no-repeat;
+                background: #fff url(../img/email.svg) 28px center no-repeat;
                 @media screen and (max-width: 767px) {
                     background-position: 12px center;
                 }

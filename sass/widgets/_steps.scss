@@ -1,5 +1,5 @@
 .steps{
-    background: url(../../img/bg_steps_banner.jpg) 0px 0px no-repeat;
+    background: url(../img/bg_steps_banner.jpg) 0px 0px no-repeat;
     background-size: cover;
     padding-bottom: 80px;
 
@@ -99,12 +99,12 @@
             z-index: 10;
             opacity: 0.4;
             &.arrow-prev{
-                background: url(../../img/arrow=white-left.png);
+                background: url(../img/arrow=white-left.png);
                 background-size: 100%;
                 left: 18px;
             }
             &.arrow-next{
-                background: url(../../img/arrow=white-right.png);
+                background: url(../img/arrow=white-right.png);
                 background-size: 100%;
                 right: 18px;
             }
@@ -124,9 +124,7 @@
             margin-top: -33px;
         }
 
-        
-
-
+    
         &:before, &::after{
             content: '';
             position: absolute;
