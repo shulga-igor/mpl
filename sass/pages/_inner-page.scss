@@ -15,22 +15,29 @@
 
 
 .inner-text-blc{
-
+    font-size: 18px;
     p{
-        font-size: 18px;
         margin: 0 0 50px;
         @media screen and (max-width: 991px) {
             font-size: 16px;
             margin: 0 0 25px;
         }
-        a{
-            color: $primary-color;
-            &:hover{
-                color: $action-color;
-            }
+        
+    }
+    a{
+        color: $primary-color;
+        &:hover{
+            color: $action-color;
         }
     }
-
+    ul{
+        margin-bottom: 50px;
+    }
+    ol{
+        li{
+            margin-bottom: 15px;
+        }
+    }
     h3{
         font-weight: 600;
         font-size: 24px;
