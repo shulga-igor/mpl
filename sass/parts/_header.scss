@@ -9,11 +9,8 @@
     }
 
     .logo{
-        img{
+        svg{
             width: 228px;
-            @media screen and (max-width: 991px) {
-                width: 128px;
-            }
         }
     }
 
