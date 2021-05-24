@@ -18,7 +18,7 @@ $( window ).load(function() {
         nextArrow: '<div class="arrow-next"><svg width="20" height="37" xmlns="http://www.w3.org/2000/svg"><path d="M15.999 18.232L.596 2.83A1.657 1.657 0 112.94.486L19.514 17.06a1.657 1.657 0 010 2.344L2.94 35.979a1.652 1.652 0 01-1.172.485 1.657 1.657 0 01-1.172-2.83l15.403-15.402z" fill="#FFF" fill-rule="nonzero"/></svg><div>',
     });
 
-    $('.services-slider').slick({
+    /*$('.services-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,
@@ -41,7 +41,7 @@ $( window ).load(function() {
                 }
             },
         ]
-    });
+    });*/
 
 
     if(width <= 767){
